@@ -10,6 +10,7 @@
 		502DA9331E1B9479005AB615 /* NSObject+EverGesturePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 502DA92E1E1B9479005AB615 /* NSObject+EverGesturePath.m */; };
 		502DA9341E1B9479005AB615 /* UIControl+EverPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 502DA9301E1B9479005AB615 /* UIControl+EverPath.m */; };
 		502DA9351E1B9479005AB615 /* UIViewController+EverPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 502DA9321E1B9479005AB615 /* UIViewController+EverPath.m */; };
+		502DA9431E1BA734005AB615 /* wechat_num.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 502DA9421E1BA734005AB615 /* wechat_num.jpg */; };
 		50BA1B8A1E1A35E4001C3B3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BA1B891E1A35E4001C3B3F /* main.m */; };
 		50BA1B8D1E1A35E4001C3B3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BA1B8C1E1A35E4001C3B3F /* AppDelegate.m */; };
 		50BA1B901E1A35E4001C3B3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BA1B8F1E1A35E4001C3B3F /* ViewController.m */; };
@@ -28,6 +29,7 @@
 		502DA9311E1B9479005AB615 /* UIViewController+EverPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EverPath.h"; sourceTree = "<group>"; };
 		502DA9321E1B9479005AB615 /* UIViewController+EverPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EverPath.m"; sourceTree = "<group>"; };
 		502DA9361E1B9637005AB615 /* EverPathMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EverPathMacro.h; sourceTree = "<group>"; };
+		502DA9421E1BA734005AB615 /* wechat_num.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wechat_num.jpg; sourceTree = "<group>"; };
 		50BA1B851E1A35E4001C3B3F /* EverShowPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverShowPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BA1B891E1A35E4001C3B3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50BA1B8B1E1A35E4001C3B3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		50BA1B881E1A35E4001C3B3F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				502DA9421E1BA734005AB615 /* wechat_num.jpg */,
 				50BA1B891E1A35E4001C3B3F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -172,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502DA9431E1BA734005AB615 /* wechat_num.jpg in Resources */,
 				50BA1B981E1A35E4001C3B3F /* LaunchScreen.storyboard in Resources */,
 				50BA1B951E1A35E4001C3B3F /* Assets.xcassets in Resources */,
 				50BA1B931E1A35E4001C3B3F /* Main.storyboard in Resources */,
