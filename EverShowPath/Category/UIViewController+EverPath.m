@@ -31,7 +31,7 @@
 - (void)ViewDidLoad_EverPath
 {
     [self ViewDidLoad_EverPath];
-    NSLog(@"Ever_VC_Path : %@",NSStringFromClass(self.class));
+    printf("Ever_VC_Path:%s\n",NSStringFromClass(self.class).UTF8String);
 }
 
 @end

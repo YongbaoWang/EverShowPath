@@ -33,7 +33,7 @@
 - (void)sendActionWithGestureRecognizer_EverGesture:(id)arg1
 {
     [self sendActionWithGestureRecognizer_EverGesture:arg1];    
-    NSLog(@"Ever_Gesture_Path : %@",self);
+    printf("Ever_Gesture_Path:%s\n",self.description.UTF8String);
 }
 
 @end

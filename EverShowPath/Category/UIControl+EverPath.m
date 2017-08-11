@@ -31,7 +31,7 @@
 - (void)sendAction_EverPath:(SEL)action to:(id)target forEvent:(UIEvent *)event
 {
     [self sendAction_EverPath:action to:target forEvent:event];
-    NSLog(@"Ever_UIControl_Path : %@,Action : %@",NSStringFromClass([target class]),NSStringFromSelector(action));
+    printf("Ever_UIControl_Path:%s,Action:%s\n",NSStringFromClass([target class]).UTF8String,[NSStringFromSelector(action) UTF8String]);
 }
 
 @end
