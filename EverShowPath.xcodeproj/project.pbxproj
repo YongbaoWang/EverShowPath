@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA627E321F7014B00BF00E1 /* UIView+EverPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA627E121F7014B00BF00E1 /* UIView+EverPath.m */; };
 		3EDA27441F3D963100A2EC21 /* UICollectionView+EverPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA27411F3D963100A2EC21 /* UICollectionView+EverPath.m */; };
 		3EDA27451F3D963100A2EC21 /* UITableView+EverPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA27431F3D963100A2EC21 /* UITableView+EverPath.m */; };
 		502DA9331E1B9479005AB615 /* NSObject+EverGesturePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 502DA92E1E1B9479005AB615 /* NSObject+EverGesturePath.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EA627E121F7014B00BF00E1 /* UIView+EverPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EverPath.m"; sourceTree = "<group>"; };
+		3EA627E221F7014B00BF00E1 /* UIView+EverPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EverPath.h"; sourceTree = "<group>"; };
 		3EDA27401F3D963100A2EC21 /* UICollectionView+EverPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+EverPath.h"; sourceTree = "<group>"; };
 		3EDA27411F3D963100A2EC21 /* UICollectionView+EverPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+EverPath.m"; sourceTree = "<group>"; };
 		3EDA27421F3D963100A2EC21 /* UITableView+EverPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EverPath.h"; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 		502DA92C1E1B9479005AB615 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3EA627E221F7014B00BF00E1 /* UIView+EverPath.h */,
+				3EA627E121F7014B00BF00E1 /* UIView+EverPath.m */,
 				3EDA27401F3D963100A2EC21 /* UICollectionView+EverPath.h */,
 				3EDA27411F3D963100A2EC21 /* UICollectionView+EverPath.m */,
 				3EDA27421F3D963100A2EC21 /* UITableView+EverPath.h */,
@@ -205,6 +210,7 @@
 				50BA1B901E1A35E4001C3B3F /* ViewController.m in Sources */,
 				50BA1B8D1E1A35E4001C3B3F /* AppDelegate.m in Sources */,
 				502DA9331E1B9479005AB615 /* NSObject+EverGesturePath.m in Sources */,
+				3EA627E321F7014B00BF00E1 /* UIView+EverPath.m in Sources */,
 				502DA9351E1B9479005AB615 /* UIViewController+EverPath.m in Sources */,
 				50BA1B8A1E1A35E4001C3B3F /* main.m in Sources */,
 				3EDA27451F3D963100A2EC21 /* UITableView+EverPath.m in Sources */,
