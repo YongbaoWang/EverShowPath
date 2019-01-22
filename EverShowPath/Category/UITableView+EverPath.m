@@ -19,7 +19,7 @@
 #if kPrintPathLog == 1
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        Class cls = [self class];
+        Class cls = [UITableView class];
         //Note:it's a private class action! Don't submit to the App Store!
         Method m1 = class_getInstanceMethod(cls, NSSelectorFromString(@"_selectRowAtIndexPath:animated:scrollPosition:notifyDelegate:"));
         Method m2 = class_getInstanceMethod(cls, NSSelectorFromString(@"selectRowAtIndexPath:animated:scrollPosition:notifyDelegate_EverPath:"));

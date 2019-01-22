@@ -19,7 +19,7 @@
 #if kPrintPathLog == 1
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        Class cls = [self class];
+        Class cls = [UIControl class];
         Method m1 = class_getInstanceMethod(cls, @selector(sendAction:to:forEvent:));
         Method m2 = class_getInstanceMethod(cls, @selector(sendAction_EverPath:to:forEvent:));
         method_exchangeImplementations(m1, m2);

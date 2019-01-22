@@ -19,7 +19,7 @@
 #if kPrintPathLog == 1
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        Class cls = [self class];
+        Class cls = [UIViewController class];
         Method m1 = class_getInstanceMethod(cls, @selector(viewDidLoad));
         Method m2 = class_getInstanceMethod(cls, @selector(ViewDidLoad_EverPath));
         method_exchangeImplementations(m1, m2);

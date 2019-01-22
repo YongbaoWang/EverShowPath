@@ -18,7 +18,7 @@
 #if kPrintPathLog == 1
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        Class cls = [self class];
+        Class cls = [UIView class];
         Method m1 = class_getInstanceMethod(cls, @selector(hitTest:withEvent:));
         Method m2 = class_getInstanceMethod(cls, @selector(hitTest:withEvent_EverPath:));
         method_exchangeImplementations(m1, m2);
